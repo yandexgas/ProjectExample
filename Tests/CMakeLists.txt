@@ -20,8 +20,6 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
-set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static")
-
 add_executable (Tests   source/main.cpp
                         source/TestCase1.cpp)
 
